@@ -1,6 +1,6 @@
 {
   "name": "raynos-user-event",
-  "version": "10.0.0-raynos-fix1",
+  "version": "10.0.0-raynos-fix2",
   "description": "Simulate user events for react-testing-library",
   "keywords": [
     "react-testing-library",
