@@ -1,4 +1,4 @@
-import { fireEvent } from "./vendor/events";
+const fireEvent = require("./vendor/events").fireEvent;
 
 function wait(time) {
   return new Promise(function(resolve) {
@@ -276,4 +276,4 @@ const userEvent = {
   }
 };
 
-export default userEvent;
+module.exports.default = userEvent;
