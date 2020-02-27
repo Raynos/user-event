@@ -454,6 +454,6 @@ Object.keys(eventAliasMap).forEach(aliasKey => {
   fireEvent[aliasKey] = (...args) => fireEvent[key](...args);
 });
 
-export { fireEvent, createEvent };
+module.exports = { fireEvent, createEvent };
 
 /* eslint complexity:["error", 9] */
